@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="All Tests"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.928">
+  <properties />
+  
+  
+            <testcase name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials" time="1.397" classname="testsuite.com.tutorialsninja.LoginPageTest" />
+                <testcase name="userShouldNavigateToLoginPageSuccessFully" time="0.489" classname="testsuite.com.tutorialsninja.LoginPageTest" />
+                <testcase name="verifyTheErrorMessageWithInValidCredentials" time="0.896" classname="testsuite.com.tutorialsninja.LoginPageTest" />
+                <testcase name="verifyThatUserShouldLogOutSuccessFully" time="2.146" classname="testsuite.com.tutorialsninja.LoginPageTest" />
+      
+</testsuite>

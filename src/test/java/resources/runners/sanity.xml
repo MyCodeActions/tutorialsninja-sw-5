@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <groups>
+        <run>
+            <include name="sanity"></include>
+        </run>
+    </groups>
+    <test name="All Sanity Tests"   >
+        <classes>
+            <class name="com.tutorialsninja.testsuite.DesktopsTest"/>
+            <class name="com.tutorialsninja.testsuite.LaptopsAndNotebooksTest"/>
+            <class name="com.tutorialsninja.testsuite.MyAccountsTest"/>
+            <class name="com.tutorialsninja.testsuite.TopMenuTest"/>
+        </classes>
+    </test>
+</suite>

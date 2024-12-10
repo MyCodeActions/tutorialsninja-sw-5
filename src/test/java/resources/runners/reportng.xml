@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests" verbose="1" >
+    <listeners>
+        <listener class-name="com.tutorialsninja.customlisteners.CustomListnerForReportNG"></listener>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+    <test name="All Tests" >
+        <classes>
+            <class name="com.tutorialsninja.testsuite.DesktopsTest"/>
+            <class name="com.tutorialsninja.testsuite.LaptopsAndNotebooksTest"/>
+            <class name="com.tutorialsninja.testsuite.MyAccountsTest"/>
+            <class name="com.tutorialsninja.testsuite.TopMenuTest"/>
+        </classes>
+    </test>
+</suite>
